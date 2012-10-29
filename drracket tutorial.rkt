@@ -1,0 +1,8 @@
+(write "Hello World") (newline)
+(+ (* 3 8) 10)
+(- 20 5)
+(symbol? 'James)
+(symbol? 5)
+(max 3 45 67 190 3 4)
+(define (add x y) (+ x y))
+(add 5 6)
