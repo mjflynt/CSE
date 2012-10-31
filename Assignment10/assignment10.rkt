@@ -1,3 +1,6 @@
+; 
+
+
 (define (find_min2 a b) 
   (if (< a b)
       a
