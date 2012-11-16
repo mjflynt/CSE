@@ -1,17 +1,17 @@
 (display "original way with let*")
 (newline)
 
-(let* ((x 9) (y (- 4 11)) (z (+ x y)) (w (* z x)))
-  (write x)
-  (newline)
-  (write y)
-  (newline)
-  (write z)
-  (newline)
-  (write w)
-  (newline)
-
-)
+;(let* ((x 9) (y (- 4 11)) (z (+ x y)) (w (* z x)))
+;  (write x)
+;  (newline)
+;  (write y)
+;  (newline)
+;  (write z)
+;  (newline)
+;  (write w)
+;  (newline)
+;
+;)
 
 (newline)
 (display "new way with just let")
