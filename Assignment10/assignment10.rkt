@@ -5,11 +5,11 @@
 ; Description: Racket procedure find_min2 that reads 2 numbers from the keyboard, and returns the minimum of two.
 
 
-(define (find_min2 a b) 
-  (if (< a b)
-      a
-      b
+(define (find_min2 a b) ; pass in two params
+  (if (< a b) ; check for smaller one
+      a ; if a is smaller return it
+      b ; otherwise return b
       )
   )
 
-(display (find_min2 (read) (read)))
+(display (find_min2 (read) (read))) ; display the smaller of two numbers prompted for.
